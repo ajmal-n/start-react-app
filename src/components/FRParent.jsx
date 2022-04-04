@@ -8,6 +8,7 @@ function FRParent() {
     }
   return (
     <div>
+      <p> forward ref test</p>
         <FRinput ref={inputRef}/>
         <button onClick={clickHandler}>Focus input </button>
     </div>
