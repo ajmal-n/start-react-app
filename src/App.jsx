@@ -1,8 +1,13 @@
 import React from 'react'
+import FRParent from './components/FRParent'
 
 function App() {
   return (
-    <div><p> App created by ajmal</p></div>
+    <div styles={{display: "flex", justifyContent: "center"}} >
+        <p> App created by ajmal</p>
+        <FRParent />
+    </div>
+
   )
 }
 
