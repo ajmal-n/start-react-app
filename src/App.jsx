@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import FRParent from './components/FRParent'
 import Ref from './components/Ref'
 
@@ -7,7 +7,7 @@ function App() {
     <div styles={{display: "flex", justifyContent: "center"}} >
         <p> App created by ajmal</p>
         <br />
-        <Fragment />
+        <FRParent />
         <Ref />
     </div>
 
